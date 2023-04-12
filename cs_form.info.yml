@@ -1,0 +1,4 @@
+name: Createsend Form Connector
+description: Handles subscriber data via form blocks
+type: module
+core_version_requirement: ^9

@@ -1,0 +1,15 @@
+cs_form.subscribe:
+  path: '/subscribe'
+  defaults:
+    _controller: '\Drupal\cs_form\Controller\CSFormController::customPage'
+    _title: 'Callback'
+  requirements:
+    _permission: 'access content'
+
+cs_form.config:
+  path: '/admin/config/cs_form'
+  defaults:
+    _form: '\Drupal\cs_form\Form\CSFormConfigForm'
+    _title: 'Campaign Monitor API Settings'
+  requirements:
+    _permission: 'administer site configuration'
